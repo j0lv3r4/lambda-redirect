@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "oauth-proxy",
+  "alias": ["oauth-proxy.now.sh"],
+  "env": {
+    "REDIRECT_URI": "@redirect-uri"
+  },
+  "builds": [
+    {"src": "index.js", "use": "@now/node"}
+  ],
+  "routes": [
+    {"src": "/", "dest": "index.js"}
+  ]
+}

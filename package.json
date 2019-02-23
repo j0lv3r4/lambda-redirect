@@ -1,0 +1,15 @@
+{
+  "name": "oauth-proxy",
+  "version": "1.0.0",
+  "description": "Some services don't allow to redirect to a localhost, this micro service proxies those request to the REDIRECT_URI env var",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "micro": "^9.3.3"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  }
+}
