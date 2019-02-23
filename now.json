@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "oauth-proxy",
-  "alias": ["oauth-proxy.now.sh"],
+  "alias": ["lambda-redirect.now.sh"],
   "env": {
     "REDIRECT_URI": "@redirect-uri"
   },
